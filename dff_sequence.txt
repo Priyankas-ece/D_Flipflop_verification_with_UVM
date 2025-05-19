@@ -1,0 +1,26 @@
+//dff UVM tb sequence
+
+class dff_seq extends uvm_sequence #(dff_seq_item);
+  
+  //factory registration
+  `uvm_object_utils(dff_seq)
+  
+  dff_seq_item seq_item_h;
+  
+  //constructor
+  function new(string name = "dff_seq");
+    super.new(name);
+    `uvm_info("dff_seq","constructor", UVM_NONE)
+  endfunction
+  
+  task body();
+    repeat(20) begin
+      seq_item_h = dff_seq_item::type_id::create("seq_item_h", null);
+      start_item(seq_item_h);
+      seq_item_h.rst=0;
+      seq_item_h.din = $urandom();
+      finish_item(seq_item_h);
+    end
+  endtask
+  
+endclass
