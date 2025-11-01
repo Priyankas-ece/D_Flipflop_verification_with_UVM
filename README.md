@@ -29,4 +29,4 @@ dff_uvm_verification
 1. SystemVerilog simulator
 2. UVM 1.2 library
 
-"C:\Users\priya\OneDrive\Pictures\Images\d_flipflop.png"
+<img width="531" height="382" alt="d_flipflop" src="https://github.com/user-attachments/assets/0ca22be0-fa02-49fd-8925-f1db1b26f13b" />
