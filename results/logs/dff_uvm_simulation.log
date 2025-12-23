@@ -1,0 +1,408 @@
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE_SP VCP2124 "Package uvm_pkg found in library uvm_1_2."
+MESSAGE "Unit top modules: dff_top_tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 6[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 Package 'uvm_pkg' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.7 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Info: Loading library:  /usr/share/Riviera-PRO/bin/uvm_1_2_dpi
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 3 (27.27%) other processes in SLP
+# SLP: 17 (0.06%) signals in SLP and 11 (0.04%) interface signals
+# ELAB2: Elaboration final pass complete - time: 2.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 30546 kB (elbread=2086 elab2=23556 kernel=4903 sdf=0)
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# KERNEL: ----------------------------------------------------------------
+# KERNEL: UVM-1.2
+# KERNEL: (C) 2007-2014 Mentor Graphics Corporation
+# KERNEL: (C) 2007-2014 Cadence Design Systems, Inc.
+# KERNEL: (C) 2006-2014 Synopsys, Inc.
+# KERNEL: (C) 2011-2013 Cypress Semiconductor Corp.
+# KERNEL: (C) 2013-2014 NVIDIA Corporation
+# KERNEL: ----------------------------------------------------------------
+# KERNEL: 
+# KERNEL:   ***********       IMPORTANT RELEASE NOTES         ************
+# KERNEL: 
+# KERNEL:   You are using a version of the UVM library that has been compiled
+# KERNEL:   with `UVM_NO_DEPRECATED undefined.
+# KERNEL:   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# KERNEL: 
+# KERNEL:   You are using a version of the UVM library that has been compiled
+# KERNEL:   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+# KERNEL:   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# KERNEL: 
+# KERNEL:       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# KERNEL: 
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: UVM_INFO /home/runner/testbench.sv(123) @ 0: reporter [TB] Virtual interface set in UVM config DB
+# KERNEL: UVM_INFO /home/runner/testbench.sv(135) @ 0: reporter [TB] Starting initial stimulus
+# KERNEL: UVM_INFO /home/runner/testbench.sv(141) @ 0: reporter [TB] Reset asserted and initial data applied
+# KERNEL: UVM_INFO /home/runner/testbench.sv(167) @ 0: reporter [TB] Starting UVM test: dff_test
+# KERNEL: UVM_INFO /home/runner/test.sv(66) @ 0: uvm_test_top [TEST] dff_test constructor called
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test dff_test...
+# KERNEL: UVM_INFO /home/runner/testbench.sv(177) @ 0: reporter [TB] Waveform dumping enabled
+# KERNEL: UVM_INFO /home/runner/environment.sv(60) @ 0: uvm_test_top.env [ENV] dff_env constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(53) @ 0: reporter@@seq [SEQUENCE] dff_seq constructor called
+# KERNEL: UVM_INFO /home/runner/test.sv(81) @ 0: uvm_test_top [TEST] Environment and sequence created
+# KERNEL: UVM_INFO /home/runner/environment.sv(68) @ 0: uvm_test_top.env [ENV] Build phase started
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(64) @ 0: uvm_test_top.env.scoreboard [SCOREBOARD] dff_scoreboard constructor called
+# KERNEL: UVM_INFO /home/runner/agent.sv(65) @ 0: uvm_test_top.env.agent [AGENT] dff_agent constructor called
+# KERNEL: UVM_INFO /home/runner/environment.sv(76) @ 0: uvm_test_top.env [ENV] Agent and Scoreboard created
+# KERNEL: UVM_INFO /home/runner/driver.sv(75) @ 0: uvm_test_top.env.agent.driver [DRIVER] dff_driver constructor called
+# KERNEL: UVM_INFO /home/runner/sequencer.sv(50) @ 0: uvm_test_top.env.agent.seqr [SEQUENCER] dff_seqr constructor called
+# KERNEL: UVM_INFO /home/runner/agent.sv(81) @ 0: uvm_test_top.env.agent [AGENT] Active agent: Driver and Sequencer created
+# KERNEL: UVM_INFO /home/runner/monitor.sv(81) @ 0: uvm_test_top.env.agent.monitor [MONITOR] dff_monitor constructor called
+# KERNEL: UVM_INFO /home/runner/agent.sv(86) @ 0: uvm_test_top.env.agent [AGENT] Monitor created
+# KERNEL: UVM_INFO /home/runner/driver.sv(92) @ 0: uvm_test_top.env.agent.driver [DRIVER] Virtual interface successfully retrieved
+# KERNEL: UVM_INFO /home/runner/monitor.sv(100) @ 0: uvm_test_top.env.agent.monitor [MONITOR] Virtual interface successfully retrieved
+# KERNEL: UVM_INFO /home/runner/sequence.sv(53) @ 0: reporter@@seq_h [SEQUENCE] dff_seq constructor called
+# KERNEL: UVM_INFO /home/runner/sequencer.sv(64) @ 0: uvm_test_top.env.agent.seqr [SEQUENCER] Sequence handle created in build_phase
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(78) @ 0: uvm_test_top.env.scoreboard [SCOREBOARD] Analysis export created
+# KERNEL: UVM_INFO /home/runner/agent.sv(96) @ 0: uvm_test_top.env.agent [AGENT] Connect phase started
+# KERNEL: UVM_INFO /home/runner/agent.sv(103) @ 0: uvm_test_top.env.agent [AGENT] Driver and Sequencer connected
+# KERNEL: UVM_INFO /home/runner/environment.sv(84) @ 0: uvm_test_top.env [ENV] Connect phase started
+# KERNEL: UVM_INFO /home/runner/environment.sv(93) @ 0: uvm_test_top.env [ENV] Monitor connected to Scoreboard
+# KERNEL: UVM_INFO /home/runner/test.sv(89) @ 0: uvm_test_top [TEST] Connect phase completed
+# KERNEL: UVM_INFO /home/runner/test.sv(97) @ 0: uvm_test_top [TEST] Run phase started
+# KERNEL: UVM_INFO /home/runner/test.sv(103) @ 0: uvm_test_top [TEST] Starting DFF stimulus sequence
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 0: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence.sv(63) @ 0: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Starting DFF stimulus sequence
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 0: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 0: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 0: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=0 | clk=1 rst=1 din=1 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 10: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(109) @ 10: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: dout is 0 during reset
+# KERNEL: [MONITOR] Time=10 | rst=1 din=1 dout=0
+# KERNEL: [TB MON] Time=10 | clk=0 rst=1 din=1 dout=0
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 20: reporter [TB] Reset deasserted
+# KERNEL: [DRIVER] Time=20 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 20: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 20: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: Error: scoreboard.sv (90): SCOREBOARD ERROR: Data mismatch | din=1 dout=0 time=20
+# KERNEL: [MONITOR] Time=20 | rst=0 din=1 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 20: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 20: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 20: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=20 | clk=1 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=30 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 30: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 30: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=30 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=30 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=40 | Random din applied = 0
+# KERNEL: [DRIVER] Time=40 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 40: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 40: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 40: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=40 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 40: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 40: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 40: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=40 | clk=1 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=50 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 50: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 50: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=50 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=50 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=60 | Random din applied = 1
+# KERNEL: [DRIVER] Time=60 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 60: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 60: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 60: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=60 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 60: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 60: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 60: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=60 | clk=1 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=70 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 70: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 70: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=70 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=70 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=80 | Random din applied = 1
+# KERNEL: [DRIVER] Time=80 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 80: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 80: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 80: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=80 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 80: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 80: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 80: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=80 | clk=1 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=90 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 90: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 90: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=90 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=90 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=100 | Random din applied = 0
+# KERNEL: [DRIVER] Time=100 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 100: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 100: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 100: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=100 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 100: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 100: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 100: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=100 | clk=1 rst=0 din=1 dout=1
+# KERNEL: [TB STIM] Time=110 | Random din applied = 1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 110: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 110: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=110 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=110 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [TB STIM] Time=120 | Random din applied = 0
+# KERNEL: [DRIVER] Time=120 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 120: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 120: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 120: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=120 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 120: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 120: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 120: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=120 | clk=1 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=130 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 130: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 130: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=130 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=130 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=140 | Random din applied = 1
+# KERNEL: [DRIVER] Time=140 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 140: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 140: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 140: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=140 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 140: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 140: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 140: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=140 | clk=1 rst=0 din=1 dout=1
+# KERNEL: [TB STIM] Time=150 | Random din applied = 1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 150: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 150: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=150 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=150 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [TB STIM] Time=160 | Random din applied = 0
+# KERNEL: [DRIVER] Time=160 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 160: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 160: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 160: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=160 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 160: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 160: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 160: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=160 | clk=1 rst=0 din=1 dout=1
+# KERNEL: [TB STIM] Time=170 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 170: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 170: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=170 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=170 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=180 | Random din applied = 1
+# KERNEL: [DRIVER] Time=180 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 180: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 180: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 180: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=180 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 180: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 180: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 180: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=180 | clk=1 rst=0 din=1 dout=1
+# KERNEL: [TB STIM] Time=190 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 190: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 190: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=190 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=190 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=200 | Random din applied = 0
+# KERNEL: [DRIVER] Time=200 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 200: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 200: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 200: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=200 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 200: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 200: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 200: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=200 | clk=1 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=210 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 210: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 210: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=210 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=210 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [TB STIM] Time=220 | Random din applied = 0
+# KERNEL: UVM_INFO /home/runner/testbench.sv(151) @ 220: reporter [TB] Stimulus completed, ending simulation
+# KERNEL: [DRIVER] Time=220 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 220: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 220: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 220: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=220 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 220: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 220: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 220: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=220 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 230: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 230: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=230 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=230 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=240 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 240: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 240: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 240: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=240 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 240: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 240: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 240: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=240 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 250: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 250: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=250 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=250 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=260 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 260: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 260: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 260: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=260 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 260: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 260: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 260: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=260 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 270: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 270: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=270 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=270 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=280 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 280: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 280: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 280: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=280 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 280: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 280: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 280: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=280 | clk=1 rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 290: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 290: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=290 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=290 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [DRIVER] Time=300 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 300: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 300: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 300: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=300 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 300: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 300: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 300: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=300 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 310: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 310: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=310 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=310 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=320 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 320: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 320: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 320: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=320 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 320: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 320: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 320: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=320 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 330: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 330: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=330 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=330 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=340 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 340: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 340: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 340: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=340 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 340: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 340: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 340: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=340 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 350: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 350: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=350 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=350 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=360 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 360: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 360: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 360: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=360 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 360: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 360: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 360: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=0
+# KERNEL: [TB MON] Time=360 | clk=1 rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 370: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 370: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=370 | rst=0 din=1 dout=1
+# KERNEL: [TB MON] Time=370 | clk=0 rst=0 din=1 dout=1
+# KERNEL: [DRIVER] Time=380 | Applied rst=0 din=0
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 380: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 380: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 380: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=1 matches dout=1
+# KERNEL: [MONITOR] Time=380 | rst=0 din=1 dout=1
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 380: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/sequence.sv(79) @ 380: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] Generated item: rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(108) @ 380: uvm_test_top.env.agent.driver [DRIVER] Driving transaction: rst=0 din=1
+# KERNEL: [TB MON] Time=380 | clk=1 rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 390: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 390: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=390 | rst=0 din=0 dout=0
+# KERNEL: [TB MON] Time=390 | clk=0 rst=0 din=0 dout=0
+# KERNEL: [DRIVER] Time=400 | Applied rst=0 din=1
+# KERNEL: UVM_INFO /home/runner/driver.sv(101) @ 400: uvm_test_top.env.agent.driver [DRIVER] Waiting for next sequence item
+# KERNEL: UVM_INFO /home/runner/sequence_item.sv(52) @ 400: reporter@@seq_item_h [SEQ_ITEM] dff_seq_item constructor called
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(97) @ 400: uvm_test_top.env.scoreboard [SCOREBOARD] PASS: din=0 matches dout=0
+# KERNEL: [MONITOR] Time=400 | rst=0 din=0 dout=0
+# KERNEL: UVM_INFO /home/runner/sequence.sv(87) @ 400: uvm_test_top.env.agent.seqr@@seq [SEQUENCE] DFF stimulus sequence completed
+# KERNEL: UVM_INFO /home/runner/test.sv(109) @ 400: uvm_test_top [TEST] Sequence completed, dropping objection
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_objection.svh(1271) @ 400: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_report_server.svh(869) @ 400: reporter [UVM/REPORT/SERVER] 
+# KERNEL: --- UVM Report Summary ---
+# KERNEL: 
+# KERNEL: ** Report counts by severity
+# KERNEL: UVM_INFO :  198
+# KERNEL: UVM_WARNING :    0
+# KERNEL: UVM_ERROR :    0
+# KERNEL: UVM_FATAL :    0
+# KERNEL: ** Report counts by id
+# KERNEL: [AGENT]     5
+# KERNEL: [DRIVER]    43
+# KERNEL: [ENV]     5
+# KERNEL: [MONITOR]     2
+# KERNEL: [RNTST]     1
+# KERNEL: [SCOREBOARD]    41
+# KERNEL: [SEQUENCE]    24
+# KERNEL: [SEQUENCER]     2
+# KERNEL: [SEQ_ITEM]    60
+# KERNEL: [TB]     7
+# KERNEL: [TEST]     6
+# KERNEL: [TEST_DONE]     1
+# KERNEL: [UVM/RELNOTES]     1
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 uvm_root.svh (521): $finish called.
+# KERNEL: Time: 400 ns,  Iteration: 63,  Instance: /dff_top_tb,  Process: @INITIAL#166_5@.
+# KERNEL: stopped at time: 400 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Finding VCD file...
+./dump.vcd
