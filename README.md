@@ -1,32 +1,104 @@
-# D_Flipflop_verification_with_UVM
-A simple UVM testbench to verify a D flip-flop using SystemVerilog.
+# D Flip-Flop Verification using UVM (SystemVerilog)
 
-## Project Structure
-dff_uvm_verification
-── dff_interface.sv
-── dff_environment.sv
-── dff_test.sv
-── dff_agent.sv
-── dff_driver.sv
-── dff_monitor.sv
-── dff_sequencer.sv
-── dff_sequence.sv
-── dff_sequence_item.sv
-── dff_scoreboard.sv
+## 📌 Overview
+This project demonstrates the functional verification of a D Flip-Flop using the Universal Verification Methodology (UVM) in SystemVerilog.
+The goal is to build a modular, reusable, and scalable UVM testbench to verify correct behavior of a synchronous D flip-flop under different input and reset conditions.
 
-## Key Features
-- Basic UVM testbench structure
-- Simple directed testing using if-else checks
-- Scoreboard for basic data integrity verification
-- Ready-to-run testbench for D flip-flop
+This repository is suitable for:   
+- Learning UVM basics
+- Academic mini-projects
+- Interview preparation
+- RTL verification practice
 
-## Verification Checks
-1. Reset functionality
-2. Data input-to-output propagation
-3. Clock edge behavior
+## 🎯 Design Under Test (DUT)
+The DUT is a positive-edge triggered D Flip-Flop with reset.
+**Features:**
+- Samples input D on the rising edge of the clock
+- Supports reset functionality
+- Outputs stored value on Q
 
-## Dependencies
-1. SystemVerilog simulator
-2. UVM 1.2 library
+## 🧪 Verification Objectives
+- Verify correct data transfer from D to Q on clock edge
+- Verify reset behavior
+- Ensure stability of output when clock is inactive
+- Check DUT behavior across multiple randomized test cases
 
-<img width="531" height="382" alt="d_flipflop" src="https://github.com/user-attachments/assets/0ca22be0-fa02-49fd-8925-f1db1b26f13b" />
+## 🏗️ UVM Testbench Architecture
+The verification environment follows the standard UVM architecture:
+
+```
+Test
+ └── Environment
+     ├── Agent
+     │   ├── Sequencer
+     │   ├── Driver
+     │   └── Monitor
+     └── Scoreboard
+```
+
+**Key Components:**
+- Sequence / Sequencer – Generates stimulus (D, reset)
+- Driver – Drives signals to the DUT
+- Monitor – Observes DUT inputs and outputs
+- Scoreboard – Compares expected vs actual output
+- Test – Configures and runs the verification scenario
+
+## 📁 Project Directory Structure
+D_FlipFlop_UVM_Verification/   
+│   
+├── rtl/   
+│   └── d_ff.sv   
+│   
+├── tb/   
+│   ├── interface.sv   
+│   ├── transaction.sv   
+│   ├── sequence.sv   
+│   ├── sequencer.sv   
+│   ├── driver.sv   
+│   ├── monitor.sv   
+│   ├── scoreboard.sv   
+│   ├── agent.sv   
+│   ├── env.sv   
+│   ├── test.sv   
+│   └── top.sv   
+│   
+├── sim/   
+│   └── run.do    
+│   
+├── results/   
+│   └── simulation_logs/   
+│   
+└── README.md   
+
+## ▶️ Simulation & Tools
+
+This project can be simulated using:
+- QuestaSim / ModelSim
+- VCS
+- Xcelium
+
+## 📊 Verification Results
+- All directed and randomized test cases passed
+- Scoreboard reports zero mismatches
+- DUT behaves correctly for reset and clock conditions
+
+## 📚 Key Concepts Covered
+- UVM Testbench Structure
+- Transaction-level Modeling
+- Driver-Monitor Communication
+- Scoreboard-based Checking
+- Reusable Verification Components
+
+## 🚀 Future Enhancements
+- Add functional coverage
+- Support asynchronous reset
+- Extend to JK / T Flip-Flop verification
+- Add assertions (SVA)
+
+## 👩‍💻 Author
+Priyanka S
+Verification Enthusiast | SystemVerilog | UVM
+
+## 📜 License
+This project is for educational purposes.
+Feel free to use, modify, and learn from it.
