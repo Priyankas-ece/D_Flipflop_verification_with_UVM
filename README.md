@@ -44,29 +44,31 @@ Test
 - Test – Configures and runs the verification scenario
 
 ## 📁 Project Directory Structure
-D_FlipFlop_UVM_Verification/   
+DFF_UVM_Verification/   
 │   
 ├── rtl/   
-│   └── d_ff.sv   
+│   └── design.sv   
 │   
 ├── tb/   
 │   ├── interface.sv   
-│   ├── transaction.sv   
+│   ├── sequence_item.sv   
 │   ├── sequence.sv   
 │   ├── sequencer.sv   
 │   ├── driver.sv   
 │   ├── monitor.sv   
-│   ├── scoreboard.sv   
 │   ├── agent.sv   
-│   ├── env.sv   
+│   ├── scoreboard.sv   
+│   ├── environment.sv   
 │   ├── test.sv   
-│   └── top.sv   
-│   
-├── sim/   
-│   └── run.do    
+│   └── testbench.sv     
 │   
 ├── results/   
-│   └── simulation_logs/   
+│   ├── waveforms/   
+│   │   ├── dff_epwave_overview.png   
+│   │   ├── dff_reset_check.png   
+│   │   └── dff_data_capture.png   
+│   └── logs/   
+│       └── dff_uvm_simulation.log   
 │   
 └── README.md   
 
@@ -96,9 +98,9 @@ This project can be simulated using:
 - Add assertions (SVA)
 
 ## 👩‍💻 Author
-Priyanka S
-Verification Enthusiast | SystemVerilog | UVM
+Priyanka S   
+Verification Enthusiast | SystemVerilog | UVM   
 
 ## 📜 License
-This project is for educational purposes.
-Feel free to use, modify, and learn from it.
+This project is for educational purposes.   
+Feel free to use, modify, and learn from it.   
